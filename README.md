@@ -3,6 +3,6 @@ Here, we will be using ML models in order to predict whether it is going to rain
 
 #Team Members
 1) Ashwin
-2) Anshika
+2) Anshika Maharana
 3) Ashutosh
 4) Simran Kaur
