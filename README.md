@@ -5,4 +5,4 @@ Here, we will be using ML models in order to predict whether it is going to rain
 1) Ashwin
 2) Anshika
 3) Ashutosh
-4) Simran
+4) Simran Kaur
