@@ -1,4 +1,4 @@
-# Rainfall-Prediction
+# Rainfall Prediction
 
 ## Team Members:
 1) Ashwin Biju Alikkal
