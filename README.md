@@ -29,7 +29,8 @@ In this approach, we imputed all the NaN values in the _continous features_ usin
 
 **1.1(2) Approach 2nd : MICE Imputation**
 
-_Multiple Imputation by Chained Equations (MICE)_ is a robust, informative method of dealing with missing data in datasets. The procedure ‘fills in’ (imputes) missing data in a dataset through an iterative series of predictive models. In each iteration, each specified variable in the dataset is imputed using the other variables in the dataset. 
+_Multiple Imputation by Chained Equations (MICE)_ is a robust, informative method of dealing with missing data in datasets. The procedure ‘fills in’ (imputes) missing data in a dataset through an iterative series of predictive models. In each iteration, each specified variable in the dataset is imputed using the other variables in the dataset.  MICE imputes missing values in the variables of a data set by using a divide and conquer approach - in other words, by focusing on one variable at a time. Once the focus is placed on one variable, MICE uses all the other variables in the data set (or a sensibly chosen subset of these variables) to predict missingness in that variable. The prediction is based on a regression model, with the form of the model depending on the nature of the focus variable (e.g., age and income will require linear regression models for prediction of their missing values, but gender will require a logistic regression model).
 
+After applying both our approaches we plotted the distribution curve of each feature belonging to uncleaned data, data cleaned using median imputation and data cleaned using MICE imputation on the same plot for comparing and deciding which approach handled our missing data better.
 
 
