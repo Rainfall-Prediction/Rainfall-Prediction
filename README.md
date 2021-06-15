@@ -11,6 +11,24 @@
 ### Objective:
 To apply various Classification and Regression machine learning models on the rainfall dataset to predict whether it is going to rain or not the following day. And if yes, then how much mm ?
 
+### A basic outline
+This section contains a basic layout of what do we plan to do further in the project and how.
+
+##### 1. Data Cleaning and Pre-processing:
+In this module, we plan to work on understanding the data better. For this we research about the features given to us and try to observe the trends in our data to the actual weather conditions in the given locations of Australia during different seasons.
+Therefore, we try to find a way to impute missing values in the data based on our observations about the data and handle the impact of outliers.
+If everything goes smoothly, we plan to cover this within this fortnight.
+
+##### 2. Exploratory Data Analysis (EDA):
+In this module, we try to convey our understanding and observations on the data via graphs and plots. We also try to understand what kind of a model the data follows.
+If everything goes smoothly, we plan to cover this within this fortnight.
+
+##### 3. Feature Engineering:
+In this module, we try to prepare a proper input dataset, compatible with the ML algorithms to improve the performance of the ML models. This includes Imputation, handling outliers, binning, transforming features, encoding, scaling and normalizing and balancing the target variable.
+
+##### 4. Model Building & Evaluation:
+Here, we try to find answers to two main questions…”Will it Rain Tomorrow? If yes then how much?”. We fit different ML models to our dataset to find the answers to these questions as close as possible. Clearly, we’ll be applying both Classification as well as Regression algorithms to know the answers.
+
 ### Dataset Description:
 This dataset contains about 11 years (2007-2017) of daily weather observations from many locations across Australia. The Data has been processed to provide target variables "RainTomorrow" (whether it rains on the following day - Yes/No) and “Rainfall”.
 
@@ -112,23 +130,6 @@ This dataset contains about 11 years (2007-2017) of daily weather observations f
 4.	For “Rainfall”>1mm, ‘Yes’ in “RainToday”.
 5.	The proportion of ‘No’ is far greater than ‘Yes’ in our target variable “RainTomorrow”.
 
-### A basic layout of what and how to do
-This section contains a basic layout of what do we plan to do further in the project and how.
-
-##### 1. Data Cleaning and Pre-processing:
-In this module, we plan to work on understanding the data better. For this we research about the features given to us and try to observe the trends in our data to the actual weather conditions in the given locations of Australia during different seasons.
-Therefore, we try to find a way to impute missing values in the data based on our observations about the data and handle the impact of outliers.
-If everything goes smoothly, we plan to cover this within this fortnight.
-
-##### 2. Exploratory Data Analysis (EDA):
-In this module, we try to convey our understanding and observations on the data via graphs and plots. We also try to understand what kind of a model the data follows.
-If everything goes smoothly, we plan to cover this within this fortnight.
-
-##### 3. Feature Engineering:
-In this module, we try to prepare a proper input dataset, compatible with the ML algorithms to improve the performance of the ML models. This includes Imputation, handling outliers, binning, transforming features, encoding, scaling and normalizing and balancing the target variable.
-
-##### 4. Model Building & Evaluation:
-Here, we try to find answers to two main questions…”Will it Rain Tomorrow? If yes then how much?”. We fit different ML models to our dataset to find the answers to these questions as close as possible. Clearly, we’ll be applying both Classification as well as Regression algorithms to know the answers.
 
 
 
