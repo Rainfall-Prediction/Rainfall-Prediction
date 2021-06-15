@@ -11,6 +11,14 @@
 ### Objective:
 To apply various Classification and Regression machine learning models on the rainfall dataset to predict whether it is going to rain or not the following day. And if yes, then how much mm ?
 
+### Dataset Description:
+This dataset contains about 11 years (2007-2017) of daily weather observations from many locations across Australia. The Data has been processed to provide target variables "RainTomorrow" (whether it rains on the following day - Yes/No) and “Rainfall”.
+
+* Data source: https://www.kaggle.com/jsphyg/weather-dataset-rattle-package
+* An example of latest weather observations in Canberra: http://www.bom.gov.au/climate/dwo/IDCJDW2801.latest.shtml
+* Features description at https://www.rdocumentation.org/packages/rattle/versions/5.4.0/topics/weather
+* Definitions adapted from http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml
+
 ### A basic outline
 This section contains a basic layout of what do we plan to do further in the project and how.
 
@@ -28,14 +36,6 @@ In this module, we try to prepare a proper input dataset, compatible with the ML
 
 ##### 4. Model Building & Evaluation:
 Here, we try to find answers to two main questions…”Will it Rain Tomorrow? If yes then how much?”. We fit different ML models to our dataset to find the answers to these questions as close as possible. Clearly, we’ll be applying both Classification as well as Regression algorithms to know the answers.
-
-### Dataset Description:
-This dataset contains about 11 years (2007-2017) of daily weather observations from many locations across Australia. The Data has been processed to provide target variables "RainTomorrow" (whether it rains on the following day - Yes/No) and “Rainfall”.
-
-* Data source: https://www.kaggle.com/jsphyg/weather-dataset-rattle-package
-* An example of latest weather observations in Canberra: http://www.bom.gov.au/climate/dwo/IDCJDW2801.latest.shtml
-* Features description at https://www.rdocumentation.org/packages/rattle/versions/5.4.0/topics/weather
-* Definitions adapted from http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml
 
 ### Understanding the data and its features
 ##### 1. "Date"
