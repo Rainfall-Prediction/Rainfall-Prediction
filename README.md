@@ -9,7 +9,7 @@
 ### Domain: Environment
 
 ### Objective:
-To apply various Classification and Regression machine learning models on the rainfall dataset to predict whether it is going to rain or not the following day. And if yes, then how much mm ?
+To apply Classification machine learning models on the rainfall dataset to predict whether it is going to rain or not the following day.
 
 ### Dataset Description:
 This dataset contains about 11 years (2007-2017) of daily weather observations from many locations across Australia. The Data has been processed to provide target variables "RainTomorrow" (whether it rains on the following day - Yes/No) and “Rainfall”.
